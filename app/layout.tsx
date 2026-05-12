@@ -1,5 +1,16 @@
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: {
+    template: '%s | Nick Dashboard',
+    default: 'Nick the cat Dashboard',
+  },
+  description: 'Nick the cat Dashboard next js test app',
+  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  keywords: ['nick', 'Dashboard', 'next', 'cat']
+};
 
 export default function RootLayout({
   children,
