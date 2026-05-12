@@ -7,9 +7,9 @@ export const metadata: Metadata = {
     template: '%s | Nick Dashboard',
     default: 'Nick the cat Dashboard',
   },
-  description: 'Nick the cat Dashboard next js test app',
+  description: 'Nick the cat Dashboard next js test app hgfdjkhbgjhfdbsjghbdfs',
   metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
-  keywords: ['nick', 'Dashboard', 'next', 'cat']
+  keywords: ['nick', 'Dashboard', 'next', 'cat', 'hgfdjkhbgjhfdbsjghbdfs']
 };
 
 export default function RootLayout({
